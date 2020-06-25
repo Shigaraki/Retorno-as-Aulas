@@ -1,0 +1,79 @@
+html * {
+  box-sizing: border-box;
+  background-color: #696969;
+  margin: 10px;
+    }
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+header {
+  display: inline;
+  color: orange;
+  font-family: sans-serif;
+  font-size: 48px
+  border-bottom: 4px solid orange;
+  border-top: 4px solid orange;
+}
+
+  nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+  nav > a {
+    border-bottom: 4px solid #bbb;
+    color: orange;
+    font-size: 20px;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s;
+}
+  nav > a:hover {
+    background-color: #f7ce84;
+    border-bottom: 4px solid orange;
+    color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding: 50px;
+    grid-gap: 20px;
+}
+
+main.mural {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    padding: 10px;
+    grid-gap: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: orange;
+    height: 30px;
+    align-items: center;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px #424242;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  color: white;
+  text-align: center;
+  }
